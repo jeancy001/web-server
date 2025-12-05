@@ -40,7 +40,7 @@ export const createReceipt = async (req, res) => {
    ========================================================================== */
 export const getAllReceipts = async (req, res) => {
   try {
-    const receipts = await Receipt.find().sort({ createdAt: -1 });
+    const receipts = await Receipt.find();
 
     res.status(200).json({
       count: receipts.length,
