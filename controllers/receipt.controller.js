@@ -395,7 +395,7 @@ export const printAllReceipts = async (req, res) => {
         .fontSize(10)
         .font("Helvetica-Oblique")
         .text(
-          "Merci pour votre confiance.",
+          "Merci pour votre confiance.\n Payer Cash:(CDF:10.000)",
           rectX,
           rectY + rectHeight + 15,
           { align: "center", width: rectWidth }
