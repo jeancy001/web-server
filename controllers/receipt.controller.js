@@ -243,13 +243,13 @@ export const printReceipt = async (req, res) => {
       .fontSize(10)
       .font("Helvetica-Oblique")
       .text(
-        "Merci pour votre confiance.",
+        "Merci pour votre confiance.Cash: (CDF:10.000",
         rectX,
         rectY + rectHeight + 15,
         { align: "center", width: rectWidth }
       )
       .text(
-        "W-Web with Jeancy • Développons l'avenir ensembleP: (CDF:10.000)",
+        "W-Web with Jeancy • Développons l'avenir ensemble: (CDF:10.000)",
         rectX,
         rectY + rectHeight + 30,
         { align: "center", width: rectWidth }
